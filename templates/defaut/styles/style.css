@@ -1,0 +1,161 @@
+/*Polices*/
+@font-face {
+    font-family: "ballpark";
+	src: url(../polices/dayrom.woff) format("woff");
+}
+
+/*Liens*/
+a{
+	text-decoration:none;
+}
+
+/*Pages*/
+#bloc_page{
+	width: 1060px;
+	margin: auto;
+	background: url(../images/separateur.png) repeat-x bottom;
+}
+body{
+	background-color: #fff7d8;
+	font-family: Trebuchet MS;
+}
+
+/*Nav*/
+nav a{
+	text-transform: uppercase;
+	color: #A5260A;
+}
+nav li{
+	display: inline;
+	list-style-type: none;
+}
+nav li a:hover{
+	border-bottom: 3px solid  #A5260A;
+	color: #A5260A;
+}
+#titre_principal{
+	background: url(../images/z.png) no-repeat left;
+	text-indent: 70px;
+    line-height: 50px;
+	font-family: ballpark;
+	font-size: 35px;
+}
+#titre_principal, nav{
+	width: 48%;
+}
+nav{
+	display: inline;
+	text-align: right;
+}
+
+/*Header*/
+.bouton_rouge{
+	background-image: linear-gradient(to top, #b6933f, #fcb936);
+	color: white;
+	padding: 8px;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+header{
+	margin-bottom: 15px;
+}
+
+/*Aside*/
+aside{
+	width: 200px;
+	background-color: #706B63;
+	float: right;
+	padding: 20px;
+	color: white;
+}
+aside p{
+	text-align: justify;
+}
+#france{
+	text-align: center;
+}
+aside p:last-child img{
+	margin: 0 3px;
+}
+
+/*Bannière accueil*/
+#banniere_image{
+	background: red;
+	height: 200px;
+	position: relative;
+	background-image: url(../images/header.jpg);
+}
+#banniere_description{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	color: white; 
+	padding: 20px 5px;
+	box-sizing: border-box;
+}
+#banniere_description a{
+	float: right;
+}
+
+/*Main (contenu principal)*/
+main{
+	width: 820px;
+	float: left;
+}
+table{
+	width: 820px;
+	word-break: break-word;
+}
+#ad-content{
+	width: 45%;
+}
+#title{
+	width: 20%;
+}
+td, th{
+	padding: 5px;
+	text-align: left;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 25px;
+}
+section h1{
+	background-image: url(../images/ico_epingle.png);
+	background-repeat: no-repeat;
+	background-position: left;
+    text-indent: 50px;
+    line-height: 50px;
+}
+article li{
+	display: inline-block;
+	text-align: justify;
+	color: #357AB7;
+}
+
+/*Footer*/
+footer{
+	clear: both;
+	background: url(../images/ico_top.png) no-repeat top center;
+}
+footer div{
+	float: left;
+	margin: 10px;
+}
+footer ul{
+	column-count: 2;
+	column-gap: 15px;
+	padding: 0;
+	list-style-type: none; 
+	color: #A5260A;
+}
+footer ul li a{
+	color: #A5260A;	
+}
+footer ul li{
+	background: url(../images/ico_liensexterne.png) no-repeat left;
+	text-indent: 10px;
+}
+
